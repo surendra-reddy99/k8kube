@@ -12,5 +12,4 @@ steps:
     --delivery-pipeline=hello-world-app
     --region=us-central1
     --source=./
-    --images=hello-world-app=us-central1-
-docker.pkg.dev/surendragcp-394706/my-docker-repo/hello-world:$SHORT_SHA
+    --images=hello-world-app=us-central1-docker.pkg.dev/surendragcp-394706/my-docker-repo/hello-world:$SHORT_SHA
